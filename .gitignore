@@ -1,0 +1,39 @@
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# VS Code settings (if applicable)
+.vscode/
+
+# Environment variables and credentials
+.env
+.env.*
+credentials.json
+token.pickle
+
+# SQLite/DB files
+*.db
+*.sqlite3
+
+# Output datasets (local Hugging Face format)
+gemini_qa_dataset/
+*.arrow
+*.jsonl
+*.csv
+*.tsv
+*.parquet
+
+# Log files
+*.log
+
+# Jupyter Notebook checkpoints (if using notebooks)
+.ipynb_checkpoints/
+
+# Temporary/OS files
+.DS_Store
+Thumbs.db
+
+# Hugging Face cache (optional)
+~/.cache/huggingface/
+
